@@ -1,3 +1,4 @@
+/*
 const palindromes = function (string) {
     
     // initialize new reverse string
@@ -20,6 +21,16 @@ const palindromes = function (string) {
     }
 
 };
+*/
+
+const palindromes = string => {
+
+    let cleanString = string.replace(/\W/g, "");
+
+    let reverseString = cleanString.split("").reverse().join(""); 
+
+    return reverseString.toLowerCase() === cleanString.toLowerCase();
+} 
 
 // Do not edit below this line
 module.exports = palindromes;
