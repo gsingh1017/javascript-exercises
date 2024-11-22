@@ -1,11 +1,7 @@
-const add = function(numOne, numTwo) {
-	return numOne + numTwo;
-};
+const add = (numOne, numTwo) => numOne + numTwo;
 
 
-const subtract = function(numOne, numTwo) {
-	return numOne - numTwo;
-};
+const subtract = (numOne, numTwo) => numOne - numTwo;
 
 
 const sum = function(nums) {
@@ -35,10 +31,7 @@ const multiply = function(nums) {
 };
 
 
-const power = function(intOne, intTwo) {
-	return Math.pow(intOne, intTwo);
-};
-
+const power = (intOne, intTwo) => Math.pow(intOne, intTwo);
 
 const factorial = function(int) {
 
